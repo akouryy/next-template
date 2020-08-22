@@ -1,0 +1,7 @@
+{
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn"
+}

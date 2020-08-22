@@ -18,7 +18,11 @@ const PageIndex: React.FC<NoChild> = () => {
       </main>
 
       <footer>
-        &copy; <a href='https://akouryy.net'>akouryy</a> 2020
+        &copy;
+        {' '}
+        <a href='https://akouryy.net'>akouryy</a>
+        {' '}
+        2020
       </footer>
     </div>
   )
