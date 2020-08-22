@@ -1,34 +1,54 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+.cache
+.cache/
 .DS_Store
+.dynamodb/
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test
+.env.test.local
+.eslintcache
+.fusebox/
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+.nuxt
+.nyc_output
+.pnp.js
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.tern-port
+.vercel
+.vuepress/dist
+.yarn-integrity
+*.lcov
+*.log
 *.pem
-
-# debug
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.tsbuildinfo
+/.next/
+/.pnp
+/build
+/coverage
+/node_modules/
+/out/
+bower_components
+dist
+jspm_packages/
+lerna-debug.log*
+lib-cov
+logs
 npm-debug.log*
+pids
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+typings/
 yarn-debug.log*
 yarn-error.log*
-
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# vercel
-.vercel
