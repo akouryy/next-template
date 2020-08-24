@@ -29,4 +29,5 @@ $ yarn add -D eslint@7 eslint-config-airbnb@18 eslint-config-prettier@6 eslint-c
     eslint-plugin-react@7 eslint-plugin-react-hooks@4 eslint-plugin-standard@4 \
     @typescript-eslint/eslint-plugin@3 @typescript-eslint/parser@3 prettier@2
 $ yarn add modern-normalize sass
+$ yarn add uuid @types/uuid lodash @types/lodash
 ```
