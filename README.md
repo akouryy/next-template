@@ -4,14 +4,15 @@
 
 * [package.json](package.json) の `"name"` を変更
 * 必要なら [.vscode/](.vscode/) を [.gitignore](.gitignore) に加える
-* [pages/index.tsx](pages/index.tsx) を編集
 * [README.md](README.md) を編集
 
 ## ライセンス
 
 [MIT](LICENSE)
 
-## 操作履歴
+## その他
+
+### 操作履歴
 
 ```sh
 $ yarn create next-app
@@ -27,5 +28,5 @@ $ yarn add -D eslint@7 eslint-config-airbnb@18 eslint-config-prettier@6 eslint-c
     eslint-plugin-no-autofix@1 eslint-plugin-node@11 eslint-plugin-prettier@3 eslint-plugin-promise@4 \
     eslint-plugin-react@7 eslint-plugin-react-hooks@4 eslint-plugin-standard@4 \
     @typescript-eslint/eslint-plugin@3 @typescript-eslint/parser@3 prettier@2
-
+$ yarn add modern-normalize sass
 ```

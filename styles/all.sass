@@ -1,0 +1,38 @@
+html, body
+  background-color: #fffdf7
+  font-family: 'Open Sans', 'ヒラギノ丸ゴ ProN W4', 'Hiragino Maru Gothic ProN', 游ゴシック, YuGothic, 'Yu Gothic', メイリオ, Meiryo, sans-serif
+  margin: 0
+  padding: 0
+
+.BasePage
+  padding-top: 3rem
+
+  &-Header
+    align-items: center
+    background-color: #1a1a1a
+    border-bottom: #111 1px solid
+    color: #f1f1f1
+    display: flex
+    height: 3rem
+    overflow-y: hidden
+    padding: 0 1rem
+    position: fixed
+    top: 0
+    width: 100%
+
+  &-Main
+    padding: 1rem
+    min-height: calc(100vh - 5rem)
+
+  &-Footer
+    align-items: center
+    background-color: #444444
+    color: #f1f1f1
+    display: flex
+    justify-content: space-around
+    min-height: 2rem
+
+    a
+      border-bottom: 1px dotted #cccccc
+      color: inherit
+      text-decoration: none
