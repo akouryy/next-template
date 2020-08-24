@@ -34,11 +34,13 @@
 *.seed
 *.tgz
 *.tsbuildinfo
-/.next/
+/.next/*
+!/.next/.gitkeep
 /.pnp
 /build
 /coverage
-/node_modules/
+/node_modules/*
+!/node_modules/.gitkeep
 /out/
 bower_components
 dist
