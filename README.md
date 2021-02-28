@@ -2,7 +2,7 @@
 
 ## コピー後行うこと
 
-* `yarn` 初回実行前に、[.next/](.next/) と [.node_modules/](.node_modules/) に `com.dropbox.ignored` 属性を付与する
+* `yarn` 初回実行前に、[.next/](.next/) と [node_modules/](node_modules/) に `com.dropbox.ignored` 属性を付与する
 * [package.json](package.json) の `"name"` を変更
 * 必要なら [.vscode/](.vscode/) を [.gitignore](.gitignore) に加える
 * [README.md](README.md) を編集

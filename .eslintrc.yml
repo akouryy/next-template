@@ -26,6 +26,7 @@ rules:
   arrow-body-style: off
   comma-dangle: [error, only-multiline]
   curly: [error, all]
+  jsx-quotes: [error, prefer-single]
   max-classes-per-file: off
   newline-per-chained-call: off # bug?
   no-mixed-operators:
