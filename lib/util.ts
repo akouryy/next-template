@@ -17,7 +17,7 @@ export const foldLeft = <T, U>(arr: readonly T[], init: U) => {
 }
 
 export const zipStrict = <T, U>(ts: readonly T[], us: readonly U[]): Array<[T, U]> => {
-  if (ts.length !== us.length) {
+  if(ts.length !== us.length) {
     throw new TypeError('arguments of zipStrict have different length')
   }
   return zip(ts, us) as Array<[T, U]>

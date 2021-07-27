@@ -15,7 +15,7 @@ export const BasePage: React.FC<P> = ({ children, title }) => {
       </Head>
 
       <header className='BasePage-Header'>
-        <h1>{title ? title : TitleBase}</h1>
+        <h1>{title ?? TitleBase}</h1>
       </header>
 
       <main className='BasePage-Main'>
