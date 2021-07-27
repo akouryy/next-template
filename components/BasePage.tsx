@@ -5,7 +5,7 @@ interface P {
   title?: string
 }
 
-const TitleBase = 'NextTemplate'
+const TitleBase = 'my-template'
 
 export const BasePage: React.FC<P> = ({ children, title }) => {
   return (
@@ -15,7 +15,7 @@ export const BasePage: React.FC<P> = ({ children, title }) => {
       </Head>
 
       <header className='BasePage-Header'>
-        <h1>my-template</h1>
+        <h1>{title ? title : TitleBase}</h1>
       </header>
 
       <main className='BasePage-Main'>
@@ -24,11 +24,9 @@ export const BasePage: React.FC<P> = ({ children, title }) => {
 
       <footer className='BasePage-Footer'>
         <div className='BasePage-FooterCopyright'>
-          (C)
-          {' '}
+          {'(C) '}
           <a href='https://akouryy.net'>akouryy</a>
-          {' '}
-          2020
+          {' 2021'}
         </div>
       </footer>
     </div>

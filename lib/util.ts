@@ -2,6 +2,8 @@ import { zip } from 'lodash'
 
 export { v4 as uuid } from 'uuid'
 
+export const cast = <T>(t: T): T => t
+
 export const times = (n: number): number[] => [...Array(n).keys()]
 
 export const uptil = (f: number, t: number): number[] => (

@@ -24,10 +24,11 @@ plugins:
 root: true
 rules:
   arrow-body-style: off
-  comma-dangle: [error, only-multiline]
+  comma-dangle: [error, always-multiline]
   curly: [error, all]
   jsx-quotes: [error, prefer-single]
   max-classes-per-file: off
+  multiline-ternary: [error, never]
   newline-per-chained-call: off # bug?
   no-mixed-operators:
     - error
@@ -45,6 +46,9 @@ rules:
   no-var: error
   prefer-const: off # -> no-autofix/prefer-const
   semi-style: [error, first]
+  sort-imports:
+    - error
+    - ignoreDeclarationSort: true # -> import/order
   yoda:
     - error
     - never
@@ -82,8 +86,18 @@ rules:
   react-hooks/rules-of-hooks: error
   react-hooks/exhaustive-deps: error
 
+  '@typescript-eslint/keyword-spacing':
+    - error
+    - overrides:
+        if: { after: false }
+        for: { after: false }
+        while: { after: false }
   '@typescript-eslint/no-non-null-assertion': off
-  '@typescript-eslint/space-before-function-paren': [error, never]
+  '@typescript-eslint/space-before-function-paren':
+    - error
+    - anonymous: never
+      asyncArrow: always
+      named: never
   '@typescript-eslint/strict-boolean-expressions': off
 settings:
   import/resolver:
