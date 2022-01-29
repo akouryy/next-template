@@ -2,9 +2,10 @@
 
 ## コピー後行うこと
 
-* `yarn` 初回実行前に、[.next/](.next/) と [node_modules/](node_modules/) に `com.dropbox.ignored` 属性を付与する
+* `yarn` 初回実行前に、[.next/](.next/) と [node_modules/](node_modules/) に `com.dropbox.ignored` 属性を付与
 * [package.json](package.json) の `"name"` を変更
-* 必要なら [.vscode/](.vscode/) を [.gitignore](.gitignore) に加える
+* 必要なら [.vscode/](.vscode/) を [.gitignore](.gitignore) に追加
+* 必要なら [components/BasePage.tsx](components/BasePage.tsx) の著作権表示を変更
 * [README.md](README.md) を編集
 
 ## ライセンス

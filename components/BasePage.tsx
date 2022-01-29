@@ -26,7 +26,7 @@ export const BasePage: React.FC<P> = ({ children, title }) => {
         <div className='BasePage-FooterCopyright'>
           {'(C) '}
           <a href='https://akouryy.net'>akouryy</a>
-          {' 2021'}
+          {' 2022'}
         </div>
       </footer>
     </div>
