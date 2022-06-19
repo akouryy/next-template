@@ -11,7 +11,7 @@ export const BasePage: React.FC<P> = ({ children, title }) => {
   return (
     <div className='BasePage'>
       <Head>
-        <title>{title ? `${title} - ${TitleBase}` : TitleBase}</title>
+        <title>{title !== undefined ? `${title} - ${TitleBase}` : TitleBase}</title>
       </Head>
 
       <header className='BasePage-Header'>
