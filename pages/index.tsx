@@ -1,8 +1,7 @@
 import React from 'react'
 import { BasePage } from '../components/BasePage'
-import { NoChild } from '../lib/reactutil/NoChild'
 
-const PageIndex: React.FC<NoChild> = () => {
+const PageIndex: React.FC = () => {
   return (
     <BasePage>
       Hello, world!

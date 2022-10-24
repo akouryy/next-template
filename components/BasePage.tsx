@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 
 interface P {
+  children: React.ReactNode
   title?: string
 }
 
